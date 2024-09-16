@@ -1685,10 +1685,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KtQlij5a_4LJ0Appeatm-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1700" y="1000" width="23.88" height="191" as="geometry" />
+          <mxGeometry x="1700" y="940" width="23.88" height="191" as="geometry" />
         </mxCell>
         <mxCell id="KtQlij5a_4LJ0Appeatm-36" value="UQ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1720" y="1080.5" width="60" height="30" as="geometry" />
+          <mxGeometry x="1720" y="1020.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KtQlij5a_4LJ0Appeatm-37" value="odds_ingame_odds_type_logs" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1137.17" y="1000" width="320" height="440" as="geometry" />
