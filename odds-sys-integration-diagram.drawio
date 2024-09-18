@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
   <diagram name="Page-1" id="a9Bd8awxfXG4mOf1hPGa">
-    <mxGraphModel dx="4450" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2530" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="230" y="262.4" width="731.3" height="1577.6" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-16" value="DhhWebSocketConnection" style="rounded=0;whiteSpace=wrap;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
-          <mxGeometry x="510" y="100" width="201.3" height="60" as="geometry" />
+          <mxGeometry x="510" y="217.6" width="201.3" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-17" value="KajSseConnection" style="rounded=0;whiteSpace=wrap;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
-          <mxGeometry x="510" y="170" width="201.3" height="60" as="geometry" />
+          <mxGeometry x="510" y="287.6" width="201.3" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-18" value="https://api-dev.odds988.com/sse&lt;br&gt;https://api-stg.odds988.com/sse&lt;br&gt;https://api.odds988.com/sse" style="text;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="10" y="32" width="220" height="60" as="geometry" />
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="12gwARSlPllt_peua3XU-12" value="&lt;div&gt;wss://api-dev.odds988.com/bets?raceTrackId={raceTrackId}&amp;amp;token={token}&lt;br&gt;wss://api-stg.odds988.com/bets?raceTrackId={raceTrackId}&amp;amp;token={token}&lt;br&gt;wss://api.odds988.com/bets?raceTrackId={raceTrackId}&amp;amp;token={token}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="10" y="1400" width="690" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-25" value="ApisysBetsSseConnection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RhFKpbfhdEMoOrh1-Fe3-15">
+          <mxGeometry x="510" y="127.6" width="201.3" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-20" value="dhhyyp&amp;nbsp;&amp;nbsp;(external）" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="1020" y="260" width="640" height="592.4" as="geometry" />
@@ -60,7 +63,12 @@
           </mxCell>
         </UserObject>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=middle;" parent="1" source="RhFKpbfhdEMoOrh1-Fe3-22" target="RhFKpbfhdEMoOrh1-Fe3-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="305" />
+              <mxPoint x="1000" y="510" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RhFKpbfhdEMoOrh1-Fe3-27" target="RhFKpbfhdEMoOrh1-Fe3-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -108,6 +116,28 @@
             <Array as="points">
               <mxPoint x="190" y="324" />
               <mxPoint x="190" y="951" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-11" value="api-sys (external）" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-280" width="640" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-12" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;event&quot;: &quot;game_bet_details&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;data&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;merchant_id&quot;: 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;game_id&quot;: 86,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;term&quot;: &quot;9576671&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;currency&quot;: &quot;CNY&quot;,&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;bets&quot;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;bet_id&quot;: 101918,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;odds_type_title&quot;: &quot;时间&quot;, // this is our type_name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;game_odds_title&quot;: &quot;冠军-多于&quot;, // this is our lot_name (but with a ranking)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;odds_type_lot_key&quot;: &quot;YLBA-SJ-1-O&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;bet_amount&quot;: 100,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;bet_odds&quot;: 1.9,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;game_type_id&quot;: 13, // we also have game_type, but ids may be different.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;game_category_id&quot;: 1, // we also have game_category, but ids may be different.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;game_kjw_key&quot;: &quot;A&quot;, // this is our race_track_id.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;type_key&quot;: &quot;YLBA-SJ&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;overflow=hidden;rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="_XhJAt9xaV3MbSmSUqA4-11">
+          <mxGeometry x="10" y="70" width="620" height="360" as="geometry" />
+        </mxCell>
+        <UserObject label="https://stg-api-sys.stg4561.com/gm/bets/event/betDetails" link="&#xa;&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;wss://ws.dhhyyp.com/live?&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;token&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" id="_XhJAt9xaV3MbSmSUqA4-13">
+          <mxCell style="text;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" vertex="1" parent="_XhJAt9xaV3MbSmSUqA4-11">
+            <mxGeometry x="10" y="30" width="400" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-14" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="-340" width="34.71" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_XhJAt9xaV3MbSmSUqA4-25" target="_XhJAt9xaV3MbSmSUqA4-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="420" />
+              <mxPoint x="980" y="-235" />
             </Array>
           </mxGeometry>
         </mxCell>
