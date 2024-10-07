@@ -1794,7 +1794,7 @@
           <mxGeometry x="1810" y="1080.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KtQlij5a_4LJ0Appeatm-37" value="odds_ingame_odds_type_logs" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1227.17" y="1150" width="320" height="440" as="geometry" />
+          <mxGeometry x="1227.17" y="1170" width="320" height="440" as="geometry" />
         </mxCell>
         <mxCell id="KtQlij5a_4LJ0Appeatm-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;top=0;left=0;right=0;bottom=1;" parent="KtQlij5a_4LJ0Appeatm-37" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
