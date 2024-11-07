@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Page-1" id="a9Bd8awxfXG4mOf1hPGa">
-    <mxGraphModel dx="2615" dy="3000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4600" dy="3900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -231,6 +231,9 @@
         </mxCell>
         <mxCell id="6cosJ_ruShOTFv7M89cE-40" value="Term can be &amp;lt;= the term specified here in case there is no data." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="125" y="-1030" width="320" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6cosJ_ruShOTFv7M89cE-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Timings (Kaj789)&lt;/h1&gt;&lt;p&gt;Backend odds-configuration platform for Marble Magic&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="-1650" width="320" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
