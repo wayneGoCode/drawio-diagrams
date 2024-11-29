@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Page-1" id="a9Bd8awxfXG4mOf1hPGa">
-    <mxGraphModel dx="3850" dy="3560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8350" dy="5600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6cosJ_ruShOTFv7M89cE-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="-85.29" y="-1550" width="350" height="200" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-15" value="odds-sys-backend" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="230" y="262.4" width="731.3" height="1657.6" as="geometry" />
+          <mxGeometry x="230" y="262.4" width="731.3" height="2607.6" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-16" value="DhhWebSocketConnection" style="rounded=0;whiteSpace=wrap;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="510" y="217.6" width="201.3" height="60" as="geometry" />
@@ -42,6 +42,9 @@
         </mxCell>
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-25" value="ApisysBetsSseConnection" style="rounded=0;whiteSpace=wrap;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="510" y="127.6" width="201.3" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_T1SaOMzvIlwIMJYtU7-8" value="HasuraController&lt;br&gt;(marbleTimingsNewInserted)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RhFKpbfhdEMoOrh1-Fe3-15">
+          <mxGeometry x="510" y="1727.6" width="201.3" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-20" value="dhhyyp&amp;nbsp;&amp;nbsp;(external）" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="1020" y="260" width="640" height="592.4" as="geometry" />
@@ -147,93 +150,110 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="-1095" width="350" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-3" value="Oddsys: odd-sys-backend/odd-sys-frontend&lt;br&gt;(View on: https://dev.odds988.com/settings/handicap)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-3" value="Oddsys: odd-sys-backend/odd-sys-frontend&lt;br&gt;(View on: https://dev.odds988.com/settings/handicap)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-685" y="-1135" width="320" height="30" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 10px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-weight: 700; white-space: normal;&quot;&gt;https://api.kaj789.com/api/timingsJiange/${track}/1&lt;br&gt;&lt;div style=&quot;text-align: center;&quot;&gt;(from kai_api &amp;gt; kai)&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" link="&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;https://api.kaj789.com/api/timingsInterval/&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: #4fc1ff;&quot;&gt;raceTrackId&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;/1&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" id="6cosJ_ruShOTFv7M89cE-5">
-          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;fontSize=10;fontColor=default;labelBackgroundColor=default;" parent="1" vertex="1">
             <mxGeometry x="-670" y="-1075" width="315" height="45" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-6" value="Used on handicap page to allow people to adjust the interval. Uses data from marble_jiange_timings data.&lt;br&gt;&lt;br&gt;Returns the latest available timings regardless of term." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-6" value="Used on handicap page to allow people to adjust the interval. Uses data from marble_jiange_timings data.&lt;br&gt;&lt;br&gt;Returns the latest available timings regardless of term." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-685" y="-1018.75" width="320" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-7" value="odd-sys-timings&lt;br&gt;(https://timing.odds988.com/{env}/{raceTrackId}/{term})" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-7" value="odd-sys-timings&lt;br&gt;(https://timing.odds988.com/{env}/{raceTrackId}/{term})" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-1135" width="320" height="30" as="geometry" />
         </mxCell>
         <UserObject label="Kai_Api &amp;gt; Kai (External KJW using, need to inform @Una and @allen zhang in PROJECT)&lt;br&gt;http://api.kaj789.com/api/kjwTimingsInterval/A/1/9593077" link="http://api.kaj789.com/api/kjwTimingsInterval/A/1/9593077" id="6cosJ_ruShOTFv7M89cE-8">
-          <mxCell style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
             <mxGeometry x="120" y="-1150" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-295" y="-1095" width="350" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-10" value="Forwarding marble_jiange_timings data + any custom interval set from merchants.&lt;br&gt;&lt;div&gt;&lt;br&gt;If term from marble_jiange_timings doesn&#39;t match term provided, will return empty.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-10" value="Forwarding marble_jiange_timings data + any custom interval set from merchants.&lt;br&gt;&lt;div&gt;&lt;br&gt;If term from marble_jiange_timings doesn&#39;t match term provided, will return empty.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-280" y="-1025" width="320" height="65" as="geometry" />
         </mxCell>
         <UserObject label="https://api.kaj789.com/api/timingsJiange/${track}/1/${term}&#xa;(from kai_api &gt; kai)" link="https://api.kaj789.com/api/timingsJiange/${track}/1/${term}" id="6cosJ_ruShOTFv7M89cE-11">
-          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" parent="1" vertex="1">
             <mxGeometry x="-290" y="-1075" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="-1095" width="350" height="170" as="geometry" />
         </mxCell>
         <UserObject label="Returns raw data from marble_jiange_timings " link="https://api.kaj789.com/api/timingsJiange/${track}/1/${term}" id="6cosJ_ruShOTFv7M89cE-14">
-          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" parent="1" vertex="1">
             <mxGeometry x="115" y="-1075" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Game Control Dashboard- kai_game_control:&lt;br&gt;(View on: https://dashboard.kaj789.com/marbleJiangeTimings)" link="http://api.kaj789.com/api/kjwTimingsInterval/A/1/9593077" id="6cosJ_ruShOTFv7M89cE-16">
-          <mxCell style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
             <mxGeometry x="540" y="-1140" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="-1095" width="380" height="170" as="geometry" />
         </mxCell>
         <UserObject label="Returns raw data from marble_jiange_timings " link="https://api.kaj789.com/api/timingsJiange/${track}/1/${term}" id="6cosJ_ruShOTFv7M89cE-22">
-          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" parent="1" vertex="1">
             <mxGeometry x="520" y="-1075" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-23" value="marble_jiange_timings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-23" value="marble_jiange_timings" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="9.71" y="-1280" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-26" value="https://timing.kaj789.com/jianGeCalculation&#xa;(in kai_backend &gt; kai_timing)" style="text;whiteSpace=wrap;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-26" value="https://timing.kaj789.com/jianGeCalculation&#xa;(in kai_backend &gt; kai_timing)" style="text;whiteSpace=wrap;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="-50" y="-1450" width="280" height="40" as="geometry" />
         </mxCell>
         <UserObject label="https://marble-api.kaj789.com/result&#xa;(in kai_api &gt; kai_marble)" link="https://marble-api.kaj789.com/v2/forecast/B" id="6cosJ_ruShOTFv7M89cE-28">
-          <mxCell style="text;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;align=center;" parent="1" vertex="1">
             <mxGeometry x="-40.28999999999999" y="-1540" width="260" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-30" value="dubai ops team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-30" value="dubai ops team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-167" y="-1610" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-32" value="Save results to marble_new, and call the endpoint below within the function:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-32" value="Save results to marble_new, and call the endpoint below within the function:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-70.28999999999999" y="-1490" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6cosJ_ruShOTFv7M89cE-30" target="6cosJ_ruShOTFv7M89cE-29">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="6cosJ_ruShOTFv7M89cE-30" target="6cosJ_ruShOTFv7M89cE-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Inserts data into marble_jiange_timings " link="https://api.kaj789.com/api/timingsJiange/${track}/1/${term}" id="6cosJ_ruShOTFv7M89cE-35">
-          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxCell style="text;whiteSpace=wrap;fontStyle=1;align=center;" parent="1" vertex="1">
             <mxGeometry x="-75.28999999999999" y="-1400" width="340" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6cosJ_ruShOTFv7M89cE-29" target="6cosJ_ruShOTFv7M89cE-23">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6cosJ_ruShOTFv7M89cE-29" target="6cosJ_ruShOTFv7M89cE-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-40" value="Term can be &amp;lt;= the term specified here in case there is no data." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-40" value="Term can be &amp;lt;= the term specified here in case there is no data." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="125" y="-1030" width="320" height="52.5" as="geometry" />
         </mxCell>
-        <mxCell id="6cosJ_ruShOTFv7M89cE-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Timings (Kaj789)&lt;/h1&gt;&lt;p&gt;Backend odds-configuration platform for Marble Magic&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6cosJ_ruShOTFv7M89cE-41" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Timings (Kaj789)&lt;/h1&gt;&lt;p&gt;Backend odds-configuration platform for Marble Magic&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-700" y="-1610" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="X_T1SaOMzvIlwIMJYtU7-2" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1910" width="34.71" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="X_T1SaOMzvIlwIMJYtU7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X_T1SaOMzvIlwIMJYtU7-3" target="X_T1SaOMzvIlwIMJYtU7-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_T1SaOMzvIlwIMJYtU7-3" value="hasura.kaj789.com" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1970" width="640" height="180" as="geometry" />
+        </mxCell>
+        <UserObject label="Hasura Web Console (Prod) - Event Triggers" link="&#xa;&lt;div style=&quot;color: #cccccc;background-color: #1f1f1f;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;wss://ws.dhhyyp.com/live?&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;token&lt;/span&gt;&lt;span style=&quot;color: #cccccc;&quot;&gt;=&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" id="X_T1SaOMzvIlwIMJYtU7-5">
+          <mxCell style="text;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" vertex="1" parent="X_T1SaOMzvIlwIMJYtU7-3">
+            <mxGeometry x="10" y="30" width="250" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="X_T1SaOMzvIlwIMJYtU7-7" value="insert_marble_jiange_notify_dev -&gt; https://api-dev.odds988.com/webhooks/hasura/marble-timings-new &#xa;insert_marble_jiange_notify_stg -&gt; https://api-stg.odds988.com/webhooks/hasura/marble-timings-new &#xa;insert_marble_jiange_notify_prod -&gt;  https://api.odds988.com/webhooks/hasura/marble-timings-new " style="text;whiteSpace=wrap;" vertex="1" parent="X_T1SaOMzvIlwIMJYtU7-3">
+          <mxGeometry x="20" y="80" width="580" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
