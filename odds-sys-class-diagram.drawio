@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="758" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1581" dy="812" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -4468,19 +4468,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-0" value="Sync game categories and game types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="4990" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="4880" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-1" target="O5aZYZwkA29zsMwraxxB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="O5aZYZwkA29zsMwraxxB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-1" target="O5aZYZwkA29zsMwraxxB-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-1" value="Sync game keys (racetracks)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5150" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="5040" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-2" target="O5aZYZwkA29zsMwraxxB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-2" value="apisys db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10.31164720323352;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="4860" y="870" width="60" height="80" as="geometry" />
+          <mxGeometry x="4750" y="820" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-3" target="O5aZYZwkA29zsMwraxxB-7">
           <mxGeometry relative="1" as="geometry" />
@@ -4489,13 +4492,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-3" value="Sync merchants" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="4830" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="4720" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-4" target="O5aZYZwkA29zsMwraxxB-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="O5aZYZwkA29zsMwraxxB-4" value="Sync default odds for all odds types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5310" y="1040" width="120" height="60" as="geometry" />
+        <mxCell id="O5aZYZwkA29zsMwraxxB-4" value="Sync default odds for all odds types for all racetracks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5200" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-5" target="O5aZYZwkA29zsMwraxxB-9">
           <mxGeometry relative="1" as="geometry" />
@@ -4504,37 +4507,46 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-5" value="Sync odds types for all existing merchants" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5470" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="5360" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-6" value="Sync game playings (UI keys) for all odds types" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5640" y="1040" width="120" height="60" as="geometry" />
+          <mxGeometry x="5530" y="930" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-7" value="Seed odds types for new merchants based on existing tracks &amp;amp; default odds" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="4830" y="1160" width="120" height="60" as="geometry" />
+          <mxGeometry x="4720" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-9" value="Seed new odds types into existing merchants" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5470" y="1158" width="120" height="60" as="geometry" />
+          <mxGeometry x="5360" y="1048" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-14" value="new oddsType detected" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5541" y="1111" width="60" height="30" as="geometry" />
+          <mxGeometry x="5431" y="1001" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-15" value="new merchant detected" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="4902" y="1113" width="60" height="30" as="geometry" />
+          <mxGeometry x="4792" y="1003" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-21" target="O5aZYZwkA29zsMwraxxB-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-21" value="apisys db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10.31164720323352;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5020" y="870" width="60" height="80" as="geometry" />
+          <mxGeometry x="4910" y="820" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-22" target="O5aZYZwkA29zsMwraxxB-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-22" value="apisys db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10.31164720323352;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5180" y="870" width="60" height="80" as="geometry" />
+          <mxGeometry x="5070" y="820" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O5aZYZwkA29zsMwraxxB-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O5aZYZwkA29zsMwraxxB-23" target="O5aZYZwkA29zsMwraxxB-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O5aZYZwkA29zsMwraxxB-23" value="apisys db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=10.31164720323352;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="5670" y="870" width="60" height="80" as="geometry" />
+          <mxGeometry x="5560" y="820" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O5aZYZwkA29zsMwraxxB-29" value="Seed game key settings" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5040" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O5aZYZwkA29zsMwraxxB-30" value="new game key detected" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="5106" y="1003" width="74" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
