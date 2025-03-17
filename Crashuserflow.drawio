@@ -1,9 +1,142 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="c8nTBjb-yMyL3-pn6Jgx">
-    <mxGraphModel>
+    <mxGraphModel dx="2987" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="50" width="930" height="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-2" value="Crash Game Flow" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-4" target="h8xcSPWI8WKxq6snyLUC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-4" value="New Term Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-5" target="h8xcSPWI8WKxq6snyLUC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-5" value="System commits Public Key (PK)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-6" target="h8xcSPWI8WKxq6snyLUC-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-6" target="h8xcSPWI8WKxq6snyLUC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-6" value="PK Uploaded to Blockchain" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-7" value="Term invalid, Retry uploading PK" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-9" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-10" target="h8xcSPWI8WKxq6snyLUC-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-10" value="Term ready. System can allow player bets." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-29" target="h8xcSPWI8WKxq6snyLUC-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-17" target="h8xcSPWI8WKxq6snyLUC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-17" value="System generates Salt + Outcome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-23" target="h8xcSPWI8WKxq6snyLUC-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-23" value="Term Closed, release results and upload proof to blockchain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="640" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-27" target="h8xcSPWI8WKxq6snyLUC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-27" target="h8xcSPWI8WKxq6snyLUC-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-27" value="Salt + Outcome (Proof) uploaded to Blockchain" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-29" value="Accept Player Bets according to game logic, update UI." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-32" target="h8xcSPWI8WKxq6snyLUC-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="950" />
+              <mxPoint x="600" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-32" value="Upload Failed, Retry uploading proof" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="430" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-33" target="h8xcSPWI8WKxq6snyLUC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-33" value="Upload Successful" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-36" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="880" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-37" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="880" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-41" target="h8xcSPWI8WKxq6snyLUC-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-41" value="Fulfill all bets" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1020" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-43" value="Term Closed" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-46" value="UI and bets closed." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#FF3333);strokeWidth=3;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="270" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h8xcSPWI8WKxq6snyLUC-50" target="h8xcSPWI8WKxq6snyLUC-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="290" as="sourcePoint" />
+            <mxPoint x="1160" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-50" value="Requires interaction with smart contract to upload public key." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#FF0000);" vertex="1" parent="1">
+          <mxGeometry x="640" y="275" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-51" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=light-dark(#000000,#FF3333);strokeWidth=3;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="650" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-52" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#000000,#FF0000);exitX=-0.009;exitY=0.486;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="h8xcSPWI8WKxq6snyLUC-51" source="h8xcSPWI8WKxq6snyLUC-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="660" as="sourcePoint" />
+            <mxPoint x="960" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-53" value="Requires interaction with smart contract to upload proof." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#FF0000);" vertex="1" parent="1">
+          <mxGeometry x="640" y="645" width="330" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
