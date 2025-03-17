@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="c8nTBjb-yMyL3-pn6Jgx">
-    <mxGraphModel dx="3360" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2240" dy="1150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,7 +413,7 @@
         <mxCell id="h8xcSPWI8WKxq6snyLUC-152" value="This Game&#39;s Term" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#FF0000);fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2950" y="72.5" width="195" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="h8xcSPWI8WKxq6snyLUC-153" value="The Outcome (O)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#FF0000);fontSize=16;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="h8xcSPWI8WKxq6snyLUC-153" value="The Multiplier (M)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#FF0000);fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2950" y="210" width="195" height="50" as="geometry" />
         </mxCell>
         <mxCell id="h8xcSPWI8WKxq6snyLUC-154" value="The Public Key (PK)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=light-dark(#000000,#FF0000);fontSize=16;fontStyle=1" vertex="1" parent="1">
