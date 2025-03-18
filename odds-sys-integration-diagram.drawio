@@ -43,6 +43,9 @@
         <mxCell id="X_T1SaOMzvIlwIMJYtU7-8" value="HasuraController&lt;br&gt;(marbleTimingsNewInserted)" style="rounded=0;whiteSpace=wrap;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="510" y="1727.6" width="201.3" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KO03NwvHs0SP7QdfRGSO-3" value="// message: game-playing UI config&lt;br&gt;&lt;div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;event_key&quot;: &quot;playing-key&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;merchant_id&quot;: 2,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;game_id&quot;: 84,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;playing_key&quot;: &quot;YLBA_SHI_JIAN&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;game_playing_id&quot;: 396,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;is_active&quot;: true&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;overflow=hidden;rounded=0;whiteSpace=wrap;fillColor=#bac8d3;strokeColor=#23445d;html=1;" vertex="1" parent="RhFKpbfhdEMoOrh1-Fe3-15">
+          <mxGeometry x="10" y="1497.6" width="390" height="162.4" as="geometry" />
+        </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Odds-sys&lt;/h1&gt;&lt;p&gt;Backend odds-configuration platform&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-180" y="80" width="320" height="90" as="geometry" />
         </mxCell>
@@ -57,9 +60,6 @@
             <mxGeometry x="10" y="30" width="250" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="RhFKpbfhdEMoOrh1-Fe3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RhFKpbfhdEMoOrh1-Fe3-27" target="RhFKpbfhdEMoOrh1-Fe3-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="12gwARSlPllt_peua3XU-16" value="odds-sys-frontend" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-180" y="801" width="330" height="390" as="geometry" />
         </mxCell>
@@ -84,15 +84,22 @@
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-2" value="api-sys (external）" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="-170" y="261" width="330" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="_XhJAt9xaV3MbSmSUqA4-9" value="Subscribed to:&lt;br&gt;message: pre-game odds config&lt;br&gt;message: pre-game currency config&lt;br&gt;message: in-game config" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_XhJAt9xaV3MbSmSUqA4-2" vertex="1">
-          <mxGeometry x="80" y="42.400000000000006" width="230" height="119" as="geometry" />
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-9" value="Subscribed to:&lt;br&gt;/sse" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_XhJAt9xaV3MbSmSUqA4-2" vertex="1">
+          <mxGeometry x="75.65" y="239.5" width="230" height="119" as="geometry" />
         </mxCell>
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-6" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-170" y="210" width="34.71" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="_XhJAt9xaV3MbSmSUqA4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RhFKpbfhdEMoOrh1-Fe3-18" target="_XhJAt9xaV3MbSmSUqA4-9" edge="1">
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="12gwARSlPllt_peua3XU-34" target="_XhJAt9xaV3MbSmSUqA4-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="95.65000000000009" y="331.70000000000005" as="targetPoint" />
+            <mxPoint x="220" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="560" />
+              <mxPoint x="200" y="550" />
+              <mxPoint x="180" y="550" />
+              <mxPoint x="180" y="560" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RhFKpbfhdEMoOrh1-Fe3-18" target="12gwARSlPllt_peua3XU-18" edge="1">
@@ -116,14 +123,6 @@
         </UserObject>
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-14" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="1020" y="200" width="34.71" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="_XhJAt9xaV3MbSmSUqA4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_XhJAt9xaV3MbSmSUqA4-25" target="_XhJAt9xaV3MbSmSUqA4-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="980" y="420" />
-              <mxPoint x="980" y="305" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="6cosJ_ruShOTFv7M89cE-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="-1095" width="350" height="170" as="geometry" />
@@ -229,6 +228,17 @@
         </mxCell>
         <mxCell id="KO03NwvHs0SP7QdfRGSO-1" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1030" y="1900" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_XhJAt9xaV3MbSmSUqA4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="_XhJAt9xaV3MbSmSUqA4-13" target="_XhJAt9xaV3MbSmSUqA4-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="980" y="305" />
+              <mxPoint x="980" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RhFKpbfhdEMoOrh1-Fe3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RhFKpbfhdEMoOrh1-Fe3-27" target="RhFKpbfhdEMoOrh1-Fe3-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
