@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="a9Bd8awxfXG4mOf1hPGa">
-    <mxGraphModel dx="2019" dy="2800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5330" dy="4500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-85.29" y="-1550" width="350" height="200" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-15" value="odds-sys-backend" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
-          <mxGeometry x="-306" y="-290" width="731.3" height="2607.6" as="geometry" />
+          <mxGeometry x="-306" y="-290" width="731.3" height="2380" as="geometry" />
         </mxCell>
         <mxCell id="RhFKpbfhdEMoOrh1-Fe3-17" value="KajSseConnection" style="rounded=0;whiteSpace=wrap;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="510" y="287.6" width="201.3" height="60" as="geometry" />
@@ -29,10 +29,10 @@
           <mxGeometry x="10" y="1067.6" width="390" height="422.4" as="geometry" />
         </mxCell>
         <mxCell id="12gwARSlPllt_peua3XU-11" value="&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;event&quot;: &quot;message&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;data&quot;: &quot;{\&quot;ingameOddsTypeId\&quot;:339293,\&quot;amount\&quot;:100,\&quot;odds\&quot;:1.92,\&quot;raceTrackId\&quot;:\&quot;C\&quot;}&quot;&lt;/div&gt;&lt;div&gt;}&lt;br&gt;&lt;br&gt;// Amount is always in USD.&lt;/div&gt;" style="text;overflow=hidden;rounded=0;whiteSpace=wrap;fillColor=#bac8d3;strokeColor=#23445d;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
-          <mxGeometry x="10" y="2467.6" width="530" height="110" as="geometry" />
+          <mxGeometry x="10" y="2240" width="530" height="110" as="geometry" />
         </mxCell>
         <mxCell id="12gwARSlPllt_peua3XU-12" value="&lt;div&gt;wss://api-dev.odds988.com/bets?raceTrackId={raceTrackId}&amp;amp;token={token}&lt;br&gt;wss://api-stg.odds988.com/bets?raceTrackId={raceTrackId}&amp;amp;token={token}&lt;br&gt;wss://api.odds988.com/bets?raceTrackId={raceTrackId}&amp;amp;token={token}&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
-          <mxGeometry x="10" y="2417.6" width="690" height="30" as="geometry" />
+          <mxGeometry x="10" y="2190" width="690" height="30" as="geometry" />
         </mxCell>
         <mxCell id="12gwARSlPllt_peua3XU-34" value="https://api-dev.odds988.com/sse&lt;br&gt;https://api-stg.odds988.com/sse&lt;br&gt;https://api.odds988.com/sse" style="text;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;" parent="RhFKpbfhdEMoOrh1-Fe3-15" vertex="1">
           <mxGeometry x="10" y="267.6" width="220" height="60" as="geometry" />
