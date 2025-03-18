@@ -85,7 +85,7 @@
           <mxGeometry x="-170" y="261" width="330" height="390" as="geometry" />
         </mxCell>
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-9" value="Subscribed to:&lt;br&gt;message: pre-game odds config&lt;br&gt;message: pre-game currency config&lt;br&gt;message: in-game config" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="_XhJAt9xaV3MbSmSUqA4-2" vertex="1">
-          <mxGeometry x="42" y="42.400000000000006" width="230" height="119" as="geometry" />
+          <mxGeometry x="80" y="42.400000000000006" width="230" height="119" as="geometry" />
         </mxCell>
         <mxCell id="_XhJAt9xaV3MbSmSUqA4-6" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="-170" y="210" width="34.71" height="44" as="geometry" />
